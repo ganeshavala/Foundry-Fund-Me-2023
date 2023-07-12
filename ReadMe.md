@@ -28,4 +28,13 @@ The `FundMe` contract is written in Solidity and allows users to fund the contra
 - `fallback` and `receive`: Call the `fund` function when Ether is sent to the contract.
 - View functions: Allow anyone to get information about funding amounts, funders, and owner.
 
+## Structure
+- `Src/FundMe.sol`: This is the actual Solidity contract that is deployed to the blockchain. It contains the code that defines the functionality of the contract, such as the ability to deposit ETH, withdraw ETH, and check the status of the contract.
+- `DeployFundMe`: This script is used to deploy the FundMe contract to the blockchain. It takes a number of arguments, including the target amount of ETH that needs to be raised, the address of the contract owner, and the address of the contract deployer.
+- `Interactions`: This script is used to interact with the FundMe contract. It provides a number of functions that allow users to deposit ETH into the FundMe contract, withdraw ETH from the FundMe contract, and check the status of the contract.
+
+## Usage
+1. Use `DeployFundMe` to deploy the FundMe contract to the blockchain.
+2. Use `Interactions` to interact with the deployed FundMe contract.
+
 ```
