@@ -37,4 +37,3 @@ The `FundMe` contract is written in Solidity and allows users to fund the contra
 1. Use `DeployFundMe` to deploy the FundMe contract to the blockchain.
 2. Use `Interactions` to interact with the deployed FundMe contract.
 
-```
