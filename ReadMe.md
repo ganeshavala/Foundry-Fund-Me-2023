@@ -1,6 +1,6 @@
  `README.md` file for the `FundMe` contract:
 
-```markdown
+
 # FundMe
 
 The `FundMe` contract is written in Solidity and allows users to fund the contract with Ether. The contract keeps track of the amount funded by each user and allows the contract owner to withdraw the funds and reset the funding amounts.
